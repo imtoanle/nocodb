@@ -41,7 +41,7 @@ on:
 
 jobs:
   buildx:
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     env:
       working-directory: ./packages/nocodb
     steps:
