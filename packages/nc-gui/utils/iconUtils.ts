@@ -225,6 +225,7 @@ import NcServer1 from '~icons/nc-icons/server1'
 import NcThumbsUpOutline from '~icons/nc-icons/thumbs-up-outline'
 import NcNocoDB from '~icons/nc-icons/nocodb'
 import NcNocoDB1 from '~icons/nc-icons/nocodb1'
+import NcAitbase from '~icons/nc-icons/aitbase'
 import NcNocoDBSquarePuck from '~icons/nc-icons/nocodb-square-puck'
 
 // Sync data
@@ -938,8 +939,8 @@ export const iconMap = {
   'cellAi': h(NcCellAi, { stroke: 'transparent' }),
   'camera': NcCamera,
   'megaPhone': NcMegaPhone,
-  'nocodb': h(NcNocoDB, { stroke: 'transparent' }),
-  'nocodb1': h(NcNocoDB1, { stroke: 'transparent' }),
+  'nocodb': h(NcAitbase, { stroke: 'transparent' }),
+  'nocodb1': h(NcAitbase, { stroke: 'transparent' }),
   'nocodbSquarePuck': h(NcNocoDBSquarePuck, { stroke: 'transparent' }),
   'bulb': NcBulb,
   'snow': NcSnow,
